@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+.scrollable-container {
+    max-height: 100vh; /* Максимальная высота, чтобы занимать весь экран */
+    overflow-y: auto; /* Включает вертикальную прокрутку, если содержимое превышает высоту контейнера */
+    padding: 30px; /* Добавляем немного внутреннего отступа */
+  }
+  
+  .main-content {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .additional-content {
+    margin-top: 80px;
+    text-align: center;
+  }
+  
